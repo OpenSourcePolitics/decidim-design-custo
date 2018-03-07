@@ -64,10 +64,10 @@ $hover-success : ; (10%darker)*/
 .button:focus,.button:hover {background:$hover-primary}
 
 /* see-through buttons */
-.button.hollow {border: 1px solid $primary;color: $primary;}
-.button.hollow:focus,.button.hollow:hover {border: 1px solid $hover-primary;color: $hover-primary;}
-.button.hollow.secondary{border: 1px solid $secondary;color: $secondary;}
-.button.hollow.secondary:hover{border: 1px solid $hover-secondary;background:white;color: $hover-secondary;}
+.button.hollow {border: 1px solid $primary;color: #fff;}
+.button.hollow:focus,.button.hollow:hover {border: 1px solid $hover-primary;color: #fff;}
+.button.hollow.secondary{border: 1px solid $secondary;color: #fff;}
+.button.hollow.secondary:hover{border: 1px solid $hover-secondary;background:white;color: #fff;}
 
 /* small buttons */
 .button.small.secondary {background-color: $secondary}
