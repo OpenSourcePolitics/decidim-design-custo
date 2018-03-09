@@ -9,10 +9,13 @@ $secondary : ; ()
 $hover-secondary: ; (10%darker)
 $callout-secondary: ; (90%lighter)
 $success : ;
-$hover-success : ; (10%darker)*/
+$hover-success : ; (10%darker)
+$warning : ;
+$hover-warning : ; (10%darker)
+$callout-warning: ; (90%lighter)*/
 
 /*________YOU MIGHT WANT TO DISABLE________*/
-.mini-footer{display:none}
+/*.mini-footer{display:none}/*
 .lopd-text{display:none} /* CGU when signing up */
 
 /*________LOGIN/LOGOUT NAVBAR________*/
