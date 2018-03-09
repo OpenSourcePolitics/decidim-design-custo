@@ -2,17 +2,17 @@
 
 /* CMD + D and replace each scss variable with its associated color
 Theme color :
-$primary: ;
-$hover-primary: ; (10%darker)
-$callout-primary: ; (90%lighter)
-$secondary : ; ()
-$hover-secondary: ; (10%darker)
-$callout-secondary: ; (90%lighter)
-$success : ;
-$hover-success : ; (10%darker)
-$warning : ;
-$hover-warning : ; (10%darker)
-$callout-warning: ; (90%lighter)*/
+$prim-ary: $primary;
+$hover-prim-ary: $hover-primary; (10%darker)
+$callout-prim-ary: $callout-primary; (90%lighter)
+$secon-dary: $secondary; ()
+$hover-secon-dary: $hover-secondary; (10%darker)
+$callout-secon-dary: $callout-secondary; (90%lighter)
+$succ-ess: $success;
+$hover-succ-ess: $hover-success; (10%darker)
+$warn-ing: $warning ;
+$hover-warn-ing: $hover-warning; (10%darker)
+$callout-warn-ing: $callout-warning; (90%lighter)*/
 
 /*________YOU MIGHT WANT TO DISABLE________*/
 /*.mini-footer{display:none}/*
@@ -39,6 +39,11 @@ $callout-warning: ; (90%lighter)*/
 /*________MENU NAVBAR________*/
 .main-nav__link--active a {box-shadow: inset 0 4px 0 0 $secondary;}
 
+/*________PROPOSITION COLLECTION SORT CONTROLS________*/
+.collection-sort-controls a {color: $primary;}
+.collection-sort-controls .is-dropdown-submenu-parent.is-active a {color: $primary;}
+.collection-sort-controls a:focus, .collection-sort-controls a:hover {color: $hover-primary;}
+
 /*________TITLES BORDERS________*/
 .section-heading:before{background-color: $primary;}
 
@@ -51,6 +56,8 @@ $callout-warning: ; (90%lighter)*/
 .author-data a, .author-data button:hover{color: $secondary;}
 .author-data a, .author-data button{color: $secondary;}
 /*name user*/
+.card__title {color: $secondary;}
+.card__title:hover{color: $hover-secondary;}
 .author-data .author__name{color: $secondary;}
 /*tags*/
 .tags a{border: 1px solid $secondary;color: $secondary}
