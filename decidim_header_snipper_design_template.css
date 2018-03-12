@@ -2,11 +2,11 @@
 
 /* CMD + D and replace each scss variable with its associated color
 Theme color :
-$prim-ary: $primary;
-$hover-prim-ary: $hover-primary; (10%darker)
+$prim-ary: #0050a0;
+$hover-prim-ary: #00376d; (10%darker)
 $callout-prim-ary: $callout-primary; (90%lighter)
-$secon-dary: $secondary; ()
-$hover-secon-dary: $hover-secondary; (10%darker)
+$secon-dary: #FDD267; ()
+$hover-secon-dary: #fcc335; (10%darker)
 $callout-secon-dary: $callout-secondary; (90%lighter)
 $succ-ess: $success;
 $hover-succ-ess: $hover-success; (10%darker)
@@ -14,125 +14,132 @@ $warn-ing: $warning ;
 $hover-warn-ing: $hover-warning; (10%darker)
 $callout-warn-ing: $callout-warning; (90%lighter)*/
 
+
 /*________YOU MIGHT WANT TO DISABLE________*/
-/*.mini-footer{display:none}/*
+/*.mini-footer{display:none}*/
 .lopd-text{display:none} /* CGU when signing up */
 
 /*________LOGIN/LOGOUT NAVBAR________*/
 
 /* if navbar white
 .title-bar{background: white;}*/
-.topbar__notifications .icon, .topbar__conversations .icon{fill:$secondary;}
-.dropdown.menu>li.is-dropdown-submenu-parent>a::after{border-color: $secondary transparent transparent;}
-.topbar__dropmenu>ul>li>a{color:$secondary}
-.topbar__dropmenu>ul>li>a:focus,.topbar__dropmenu>ul>li>a:hover{color:$hover-secondary}
-.topbar__dropmenu>ul>li.is-dropdown-submenu-parent.is-active>a{color:$hover-secondary}
-.topbar__dropmenu>ul>li.is-dropdown-submenu-parent>a:after{border-color:$secondary}
-.topbar__dropmenu>ul>li.is-dropdown-submenu-parent>a:focus:after,.topbar__dropmenu>ul>li.is-dropdown-submenu-parent>a:hover:after{border-top-color:$hover-secondary}
-.topbar__dropmenu .is-dropdown-submenu a:focus,.topbar__dropmenu .is-dropdown-submenu a:hover{color:$hover-secondary}
-.topbar__user>ul>li>a{font-weight:normal;color:$secondary}
-.topbar__user>ul>li>a:focus,.topbar__user>ul>li>a:hover{color:$hover-secondary}
-.topbar__user__login a{font-weight:normal;color:$secondary}
-.topbar__user__login a:focus,.topbar__user__login a:hover{color:$hover-secondary}
-.topbar__dropmenu .is-dropdown-submenu a{color:$secondary}
+.topbar__notifications .icon, .topbar__conversations .icon{fill:#FDD267;}
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after{border-color: #FDD267 transparent transparent;}
+.topbar__dropmenu>ul>li>a{color:#FDD267}
+.topbar__dropmenu>ul>li>a:focus,.topbar__dropmenu>ul>li>a:hover{color:#fcc335}
+.topbar__dropmenu>ul>li.is-dropdown-submenu-parent.is-active>a{color:#fcc335}
+.topbar__dropmenu>ul>li.is-dropdown-submenu-parent>a:after{border-color:#FDD267}
+.topbar__dropmenu>ul>li.is-dropdown-submenu-parent>a:focus:after,.topbar__dropmenu>ul>li.is-dropdown-submenu-parent>a:hover:after{border-top-color:#fcc335}
+.topbar__dropmenu .is-dropdown-submenu a:focus,.topbar__dropmenu .is-dropdown-submenu a:hover{color:#fcc335}
+.topbar__user>ul>li>a{font-weight:normal;color:#FDD267}
+.topbar__user>ul>li>a:focus,.topbar__user>ul>li>a:hover{color:#fcc335}
+.topbar__user__login a{font-weight:normal;color:#FDD267}
+.topbar__user__login a:focus,.topbar__user__login a:hover{color:#fcc335}
+.topbar__dropmenu .is-dropdown-submenu a{color:#FDD267}
 
 /*________MENU NAVBAR________*/
-.main-nav__link--active a {box-shadow: inset 0 4px 0 0 $secondary;}
+.main-nav__link--active a {box-shadow: inset 0 4px 0 0 #FDD267;}
 
 /*________PROPOSITION COLLECTION SORT CONTROLS________*/
-.collection-sort-controls a {color: $primary;}
-.collection-sort-controls .is-dropdown-submenu-parent.is-active a {color: $primary;}
-.collection-sort-controls a:focus, .collection-sort-controls a:hover {color: $hover-primary;}
+.collection-sort-controls a {color: #0050a0;}
+.collection-sort-controls .is-dropdown-submenu-parent.is-active a {color: #0050a0;}
+.collection-sort-controls a:focus, .collection-sort-controls a:hover {color: #00376d;}
+
 
 /*________TITLES BORDERS________*/
-.section-heading:before{background-color: $primary;}
+.section-heading:before{background-color: #0050a0;}
 
 /*________ANNOUNCEMENTS and ALERTS________*/
- .callout.secondary{border-left: 8px solid $secondary; background-color: $callout-secondary;}
- .callout.warning{border-left: 8px solid $warning; background-color: $callout-warning;}
+ .callout.secondary{border-left: 8px solid #FDD267; background-color: #fef0cc;}
 
 /*________CARDS________*/
-.card__datetime{border-left: 4px solid $secondary;}
-.author-data a, .author-data button:hover{color: $secondary;}
-.author-data a, .author-data button{color: $secondary;}
+.card__datetime{border-left: 4px solid #FDD267;}
+.author-data a, .author-data button:hover{color: #FDD267;}
+.author-data a, .author-data button{color: #FDD267;}
 /*name user*/
-.card__title {color: $secondary;}
-.card__title:hover{color: $hover-secondary;}
-.author-data .author__name{color: $secondary;}
+.author-data .author__name{color: #FDD267;}
 /*tags*/
-.tags a{border: 1px solid $secondary;color: $secondary}
+.card__title {color: #0050a0;}
+.card__title:hover {color: #00376d;}
+.card__link:hover{color: #FDD267;}
+.tags a{border: 1px solid #0050a0;color: #0050a0}
 
 /*________ICONS________*/
-.home-bullet__icon svg {fill: $primary;}
-.address__icon, .card--list__icon, .process_stats .process_stats-item .icon{fill: $secondary;}
-// .icon .external-icon {fill: $secondary;}
+.home-bullet__icon svg {fill: #0050a0;}
+.address__icon, .card--list__icon, .process_stats .process_stats-item .icon{fill: #FDD267;}
+// .icon .external-icon {fill: #FDD267;}
 
 /*________BUTTONS________*/
 
 /* regular buttons */
-.button{color:white;background:$primary}
-.button:focus,.button:hover {background:$hover-primary}
+.button.expanded{color:white!important;background:#0050a0}
+.button.expanded:focus,.button.expanded:hover {color:white;background:#00376d}
 
-/* see-through buttons */
-.button.hollow {border: 1px solid $primary;color: #fff;}
-.button.hollow:focus,.button.hollow:hover {border: 1px solid $hover-primary;color: #fff;}
-.button.hollow.secondary{border: 1px solid $secondary;color: #fff;}
-.button.hollow.secondary:hover{border: 1px solid $hover-secondary;background:white;color: #fff;}
+/* big see-through buttons */
+.button.expanded.hollow {border: 1px solid #0050a0;color: #0050a0!important;background:transparent!important}
+.button.expanded.hollow:focus,.button.expanded.hollow:hover {border: 1px solid #00376d;color: #00376d!important;background:transparent!important}
+.button.expanded.hollow.secondary {border: 1px solid #0050a0!important;color: #0050a0!important;background:transparent!important}
+.button.expanded.hollow.secondary:hover {border: 1px solid #00376d!important;color: #00376d!important;background:transparent!important}
 
 /* small buttons */
-.button.small.secondary {background-color: $secondary}
-.button.small.secondary:hover {background-color: $hover-secondary}
+.button.small {color:white; background-color: #0050a0}
+.button.small:hover {color:white; background-color: #00376d}
+.button.small.secondary {color:white; background-color: #0050a0!important}
+.button.small.secondary:hover {color:white; background-color: #00376d!important}
+.button.small.hollow {border: 1px solid #0050a0;color: #0050a0!important;background:transparent!important}
+.button.small.hollow:hover {border: 1px solid #00376d;color: #00376d!important;background:transparent!important}
+
 
 /* "Register" button */
-.subhero-cta{color: $primary;}
-.subhero-cta:hover{color: $secondary;}
+.subhero-cta{color: #0050a0;}
+.subhero-cta:hover{color: #FDD267;}
 
 /* "View steps" button */
 .button.tiny.hollow {border:1px solid white; color:white; opacity:0.8}
 .button.tiny.hollow:hover {border:1px solid white; color:white; opacity:1}
 
 /* button disable */
-.button.disabled, .button.disabled:hover, .button.disabled:focus, .button[disabled], .button[disabled]:hover, .button[disabled]:focus{background-color: $hover-secondary;}
+.button.disabled, .button.disabled:hover, .button.disabled:focus, .button[disabled], .button[disabled]:hover, .button[disabled]:focus{background-color: #fcc335;}
 
 /* upload button */
-.card--list__data__icon .icon{fill: $secondary;}
-.card--list__data__icon:hover .icon{fill: $hover-secondary;}
+.card--list__data__icon .icon{fill: #FDD267;}
+.card--list__data__icon:hover .icon{fill: #fcc335;}
 
-.button.clear {color: $primary}
-.button.clear:hover {color: $hover-primary}
-.close.button {color: $primary}
+.button.clear {color: #0050a0}
+.button.clear:hover {color: #00376d}
+.close.button {color: #0050a0}
 
 /*________LINKS________*/
-/* a{color: $secondary;}*/
-/* .link{color: $secondary;}*/
-.picker-content a {color:$secondary}
-.card__link:hover{color: $secondary;}
+.link {color: #0050a0;}
+a {color: #0050a0;}
+a:hover {color: #00376d;}
+.picker-content a {color:#FDD267}
 
 /*________HERO SECTION________*/
-.hero-cta {margin-top: 10rem;margin-bottom: -3rem;}
 /* hide HERO description .hero-heading{display: none;} */
 
 /* HOME/PROCESS selected process (active/past)*/
-.order-by__tab.is-active{color: $secondary;}
+.order-by__tab.is-active{color: #FDD267;}
+
 
 /*________PROCESS HEADER________*/
 
 /*progress bar*/
-.process-header__progress .phase-item--past::after{background-color: $secondary;}
-.process-header__progress .phase-item--past span{background-color: $secondary;}
+.process-header__progress .phase-item--past::after{background-color: #FDD267;}
+.process-header__progress .phase-item--past span{background-color: #FDD267;}
 
 /*name and icons of features*/
-.process-nav__link {color: $primary;}
-.process-nav__link svg {fill: $primary;}
-.process-nav__link:hover, .process-nav__link.is-active{color: $secondary;}
-.process-nav__link:hover svg, .process-nav__link.is-active svg{fill: $secondary;}
-.process-nav__link:focus, .process-nav__link.is-active{color: $secondary;}
-.process-nav__link:focus svg, .process-nav__link.is-active svg{fill: $secondary;}
+.process-nav__link {color: #0050a0;}
+.process-nav__link svg {fill: #0050a0;}
+.process-nav__link:hover, .process-nav__link.is-active{color: #FDD267;}
+.process-nav__link:hover svg, .process-nav__link.is-active svg{fill: #FDD267;}
+.process-nav__link:focus, .process-nav__link.is-active{color: #FDD267;}
+.process-nav__link:focus svg, .process-nav__link.is-active svg{fill: #FDD267;}
 
 /*________TIMELINE HEADER________*/
 
-.timeline__item:before{background:$primary}
-.timeline__item--current .timeline__info{border-color:$primary}.timeline__item--current .timeline__header{background-color:$primary}
-.timeline__phase{background:$primary}
+.timeline__item:before{background:#0050a0}
+.timeline__item--current .timeline__info{border-color:#0050a0}.timeline__item--current .timeline__header{background-color:#0050a0}
+.timeline__phase{background:#0050a0}
 
 </style>
