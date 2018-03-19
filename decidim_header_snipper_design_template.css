@@ -14,6 +14,15 @@ $warn-ing: $warning ;
 $hover-warn-ing: $hover-warning; (10%darker)
 $callout-warn-ing: $callout-warning; (90%lighter)*/
 
+.logo-cityhall {
+  position: absolute!important;
+  z-index: 1!important;
+  right: 0!important;
+  top: 50%!important;
+  text-align: right!important;
+  margin-top: -19px!important;
+}
+
 /*________YOU MIGHT WANT TO DISABLE________*/
 /*.mini-footer{display:none}/*
 .lopd-text{display:none} /* CGU when signing up */
@@ -21,7 +30,8 @@ $callout-warn-ing: $callout-warning; (90%lighter)*/
 /*________LOGIN/LOGOUT NAVBAR________*/
 
 /* if navbar white
-.title-bar{background: white;}*/
+.title-bar{background: white;}
+.logo-wrapper {border-left-color: white;}*/
 .topbar__notifications .icon, .topbar__conversations .icon{fill:$secondary;}
 .dropdown.menu>li.is-dropdown-submenu-parent>a::after{border-color: $secondary transparent transparent;}
 .topbar__dropmenu>ul>li>a{color:$secondary}
